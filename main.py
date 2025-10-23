@@ -14,7 +14,7 @@ def subtract(a: float, b: float) -> float:
     return a - b
 
 @mcp.tool
-def generte_number(a: int, b: int) -> int:
+def generate_number(a: int, b: int) -> int:
     """Generates a random number between a and b."""
     import random
     return random.randint(a, b)
